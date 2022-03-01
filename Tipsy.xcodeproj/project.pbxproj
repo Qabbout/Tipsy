@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F7DB150E27CE89E8009B9F34 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F7DB151127CE96C2009B9F34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7FF508A27CABE19005CE86D /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FF508D27CABE19005CE86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7FF508F27CABE19005CE86D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		F7FF508127CABE19005CE86D = {
 			isa = PBXGroup;
 			children = (
+				F7DB151127CE96C2009B9F34 /* README.md */,
 				F7FF508C27CABE19005CE86D /* Tipsy */,
 				F7FF508B27CABE19005CE86D /* Products */,
 			);
