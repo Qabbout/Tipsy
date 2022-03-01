@@ -39,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7DB151027CE906A009B9F34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7FF509127CABE19005CE86D /* CalculatorViewController.swift */,
+				F7DB150E27CE89E8009B9F34 /* ResultsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F7FF508127CABE19005CE86D = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +67,10 @@
 		F7FF508C27CABE19005CE86D /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				F7DB151027CE906A009B9F34 /* Controllers */,
 				F7FF508D27CABE19005CE86D /* AppDelegate.swift */,
 				F7FF508F27CABE19005CE86D /* SceneDelegate.swift */,
-				F7FF509127CABE19005CE86D /* CalculatorViewController.swift */,
 				F7FF509327CABE19005CE86D /* Main.storyboard */,
-				F7DB150E27CE89E8009B9F34 /* ResultsViewController.swift */,
 				F7FF509627CABE1B005CE86D /* Assets.xcassets */,
 				F7FF509827CABE1B005CE86D /* LaunchScreen.storyboard */,
 				F7FF509B27CABE1B005CE86D /* Info.plist */,
