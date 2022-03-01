@@ -196,10 +196,10 @@
             </objects>
             <point key="canvasLocation" x="-38" y="98"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="InY-Mz-2GY">
             <objects>
-                <viewController id="ZzJ-s9-oJc" sceneMemberID="viewController">
+                <viewController id="ZzJ-s9-oJc" customClass="ResultsViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VaZ-s0-FZB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,6 +256,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="recalculateBtnPressed:" destination="ZzJ-s9-oJc" eventType="touchUpInside" id="xVj-v3-Fph"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qcy-QY-NiA"/>
@@ -271,6 +274,10 @@
                             <constraint firstItem="TFr-vj-xTf" firstAttribute="centerX" secondItem="VaZ-s0-FZB" secondAttribute="centerX" id="zJQ-In-hjF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="settingLabel" destination="8aM-pk-Oft" id="jpZ-hh-maC"/>
+                        <outlet property="totalLabel" destination="oT5-3K-YAS" id="quj-vO-3vY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BGn-fq-aaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
