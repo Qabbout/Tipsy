@@ -59,7 +59,9 @@ class CalculatorViewController: UIViewController {
         if segue.identifier == "goToResults" {
             
             let destinationVC = segue.destination as! ResultsViewController
-            
+            destinationVC.result = finalResult
+            destinationVC.tip = Int(tip * 100)
+            destinationVC.split = numberOfPeople
         }
     }
 
