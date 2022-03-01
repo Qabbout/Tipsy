@@ -50,8 +50,8 @@ class CalculatorViewController: UIViewController {
             billTotal = Double(bill)!
             let result = billTotal * (1 + tip) / Double(numberOfPeople)
             finalResult = String(format: "%.2f", result)
+            performSegue(withIdentifier: "goToResults", sender: self)
         }
-        performSegue(withIdentifier: "goToResults", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
